@@ -43,6 +43,7 @@ function frCdn(){
 
   }
 
+alert("Tu as" +score +"sur 5")
 }
 
   
