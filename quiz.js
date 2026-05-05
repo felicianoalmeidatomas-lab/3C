@@ -45,7 +45,7 @@ function frCdn(){
 
   }
 
-alert("Tu as"+score++"sur"+"5")
+alert("Tu as"+score+"sur"+"5")
 }
 //Phrases Complexes
 
@@ -94,7 +94,7 @@ function frPhraseComplexe(){
 
   }
 
-alert("Tu as"+score++"sur"+"5")
+alert("Tu as"+score+"sur"+"5")
 }
 
   
