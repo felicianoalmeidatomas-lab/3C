@@ -1,3 +1,5 @@
+//Expansions du nom
+
 function frCdn(){
   let score=0
   let res=prompt("Lequel n'est pas une expansion du nom:l'épithète, le verbe, le complément du nom et le complément de l'antécédent.")
@@ -45,7 +47,7 @@ function frCdn(){
 
 alert("Tu as" +score +"sur 5")
 }
-
+//Phrases Complexes
 
 function frPhraseComplexe(){
   let score=0
