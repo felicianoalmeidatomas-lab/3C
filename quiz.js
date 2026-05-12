@@ -97,6 +97,54 @@ function frPhraseComplexe(){
 alert("Tu as"+score+"sur"+"5")
 }
 
+function Mathstrigo(){
+  let score=0
+  let res=prompt("Quelle formule pour la tangente: opp/adj adj/hyp hyp/adj")
+  if (res==="opp/adj"){
+    alert("Bravo tu as trouvé")
+    score=(score+1)
+  } else{
+    alert("opp/adj")
+  }
+  let res2=prompt("Quelle formule pour le cosinus: opp/adj adj/hyp hyp/adj")
+  if (res2==="adj/hyp"){
+    alert("Bravo tu as trouvé")
+    score=(score+1)
+  } else{
+    alert("Faux,c'était adj/hyp")
+
+  }
+
+  let res3=prompt("Quelle formule pour le sinus: opp/adj adj/hyp opp/hyp")
+  if (res3==="opp/hyp"){
+    alert("Bravo tu as trouvé")
+    score=(score+1)
+  } else{
+    alert("Faux,c'était opp/hyp")
+
+  }
+
+  let res4=prompt("Dans un triangle rectangle, quel côté est toujours le plus long ?")
+  if (res4==="hypoténuse"){
+    alert("Bravo tu as trouvé")
+    score=(score+1)
+  } else{
+    alert("Faux,c'était l'hypoténuse")
+
+  }
+
+   let res5=prompt("Dans un triangle rectangle quelle est la somme des valeurs des angles aigus?")
+  if (res5==="90"){
+    alert("Bravo tu as trouvé")
+    score=(score+1)
+  } else{
+    alert("Faux,c'était 90°")
+
+  }
+
+alert("Tu as"+score+"sur"+"5")
+}
+
   
 
   
