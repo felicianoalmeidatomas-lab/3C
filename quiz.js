@@ -145,6 +145,51 @@ function Mathstrigo(){
 alert("Tu as"+score+"sur"+"5")
 }
 
+function MathsFonction(){
+
+
+  let score=0
+  let res=prompt("Soit la fonction f(x)=3x+2.Quelle est l’image de 4 par f ?")
+  if (res===14){
+    alert("Bravo tu as trouvé")
+    score=(score+1)
+  } else{
+    alert("C'était 14")
+  }
+  let res2=prompt("Une fonction g est définie par g(x)=x 2−5.Calcule g(−3).")
+  if (res2===4){
+    alert("Bravo tu as trouvé")
+    score=(score+1)
+  } else{
+    alert("Faux,c'était 4)
+
+  }
+
+  let res3=prompt("On considère la fonction h(x)=2x−7.Quel nombre a pour image 9")
+  if (res3===8){
+    alert("Bravo tu as trouvé")
+    score=(score+1)
+  } else{
+    alert("Faux,c'était 8")
+
+  }
+
+  let res4=prompt("Une fonction associe à chaque nombre son double puis ajoute 1.Écris cette fonction sous forme mathématique.")
+  if (res4==="f(x)=2x+1"){
+    alert("Bravo tu as trouvé")
+    score=(score+1)
+  } else{
+    alert("Faux,c'était f(x)=2x+1")
+
+  }
+
+   let res5=prompt("Soit la fonction k(x)=x2.Compare k(2) et k(−2). Que remarques-tu :Les deux images sont égales. Une fonction carré donne le même résultat pour x et −x.(1), k(2)=2 et k(−2)=−2, donc les résultats sont opposés.(2) ou k(2) est plus petit que k(−2)(3).")
+  if (res5==="1"){
+    alert("Bravo tu as trouvé")
+    score=(score+1)
+  } else{
+    alert("Faux,c'était la première")
+
   
 
   
