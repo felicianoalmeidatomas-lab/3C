@@ -189,6 +189,8 @@ function MathsFonction(){
     score=(score+1)
   } else{
     alert("Faux,c'était la première")
+  }
+}
 
   
 
